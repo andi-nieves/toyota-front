@@ -1,0 +1,181 @@
+.create-service-call-container {
+    display: inline-block;
+    vertical-align: top;
+    width: 80%;
+    height: 100vh;
+    overflow: auto;
+    padding: 40px 80px;
+    box-sizing: border-box;
+}
+
+.create-service-call-container .errorBox {
+    padding: 10px;
+    width: 100%;
+    background-color: #FFFFFF !important;
+    border: 1px solid #ccc;
+    border-left: #BE0000 6px solid;
+    margin-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+    display: block;
+}
+.create-service-call-container .successBox {
+    padding: 10px;
+    width: 100%;
+    background-color: #FFFFFF !important;
+    border: 1px solid #ccc;
+    border-left: green 6px solid;
+    margin-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+    display: block;
+    min-height: 30px;
+}
+.create-service-call-container i.required{
+    color: #BE0000;
+}
+.create-service-call-container .box .message {
+    margin-left: 50px;
+}
+.create-service-call-container .errorBox i.fa {
+    font-size: 30px;
+    float: left;
+    color: #BE0000;
+}
+.create-service-call-container .successBox i.fa {
+    font-size: 30px;
+    float: left;
+    color: green;
+
+}
+.create-service-call-container .box p{
+    color: #333;
+}
+.create-service-call-container .successBox h2{
+    color: green;
+    font-weight: 800;
+}
+.create-service-call-container .errorBox h2{
+    color: #BE0000;
+    font-weight: 800;
+}
+.create-service-call-container .tab-links .tab-link {
+    display: inline-block;
+    color: #333;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    border-radius: 8px 8px 0 0;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.create-service-call-container .tab-links .tab-link:hover {
+    background: #CC0000;
+    color: #FFFFFF;
+    opacity: .8;
+}
+
+.create-service-call-container .tab-links .tab-link.tab-link-active {
+    background: #BE0000;
+    color: #FFFFFF;
+}
+
+.create-service-call-container h1 {
+    color: #BE0000;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.create-service-call-container form {
+    margin-bottom: 200px;
+}
+
+.create-service-call-container form .content {
+    background: #f7f7f7;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.create-service-call-container form .content .form-group {
+    margin-bottom: 20px;
+}
+
+.create-service-call-container form .content .form-group label {
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.create-service-call-container form .content #state-select-equipment-card div.css-1aya2g8,
+.create-service-call-container form .content #state-select-equipment-card div.css-1aya2g8,
+.create-service-call-container form .content #state-select-costumer-code div.css-1aya2g8,
+.create-service-call-container form .content #state-select-costumer-code div.css-1aya2g8,
+.create-service-call-container form .content .form-group select,
+.create-service-call-container form .content .form-group input[type="text"],
+.create-service-call-container form .content .form-group input[type="date"],
+.create-service-call-container form .content .form-group input[type="time"],
+.create-service-call-container form .content .form-group select,
+.create-service-call-container form .content .form-group textarea,
+.create-service-call-container form .content .form-group button {
+    width: 60%;
+    height: 33px;
+    border-radius: 100px;
+    border: 0;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    background: #E0E1E0;
+}
+
+.create-service-call-container form .content .form-group input[type="text"]:focus,
+.create-service-call-container form .content .form-group input[type="date"]:focus,
+.create-service-call-container form .content .form-group input[type="time"]:focus,
+.create-service-call-container form .content .form-group select:focus,
+.create-service-call-container form .content .form-group textarea:focus,
+.create-service-call-container form .content .form-group button {
+    border: 1px #E0E1E0 solid;
+    background: #ffffff;
+}
+
+.create-service-call-container form .content .form-group button {
+    background: transparent;
+    color: #BE0000;
+    border: 1px solid #BE0000;
+}
+
+.create-service-call-container form .content .form-group button:hover {
+    color: #FFFFFF;
+    background: #BE0000;
+}
+
+.create-service-call-container form .content .form-group textarea {
+    height: 300px;
+    min-height: 300px;
+    border-radius: 20px;
+    min-width: 60%;
+    max-width: 60%;
+}
+
+.create-service-call-container form .content .form-group .checkbox-field {
+    margin-bottom: 10px;
+}
+
+.create-service-call-container form .content .form-group .checkbox-field span {
+    font-family: "Montserrat", sans-serif;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.create-service-call-container form .content .form-group .value {
+    font-family: "Montserrat", sans-serif;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+/*# sourceMappingURL=create_service_call.css.map */

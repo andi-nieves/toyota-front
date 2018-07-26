@@ -1,0 +1,98 @@
+@import 'variables';
+
+.create-service-call-container {
+	display: inline-block;
+	vertical-align: top;
+	width: 80%;
+	height: 100vh;
+	overflow: auto;
+	padding: 40px 80px;
+	box-sizing: border-box;
+	.tab-links {
+		.tab-link {
+			display: inline-block;
+			color: $color-black;
+			text-transform: uppercase;
+			font-family: $font-montserrat;
+			font-weight: 600;
+			border-radius: 8px 8px 0 0;
+			padding: 10px 20px;
+			cursor: pointer;
+			&:hover {
+				background: $color-med-red;
+				color: $color-bright-white;
+				opacity: .8;
+			}
+			&.tab-link-active {
+				background: $color-dark-red;
+				color: $color-bright-white;
+			}
+		}
+	}
+	h1 {
+		color: $color-dark-red;
+		text-transform: uppercase;
+		font-family: $font-montserrat;
+		font-weight: 600;
+		font-size: 40px;
+		margin-bottom: 40px;
+	}
+	form {
+		margin-bottom: 200px;
+		.content {
+			background: $color-white;
+			box-sizing: border-box;
+			padding: 30px;
+			.form-group {
+				margin-bottom: 20px;
+				label {
+					display: block;
+					font-family: $font-montserrat;
+					color: $color-black;
+					text-transform: uppercase;
+					font-weight: 600;
+					margin-bottom: 10px;
+				}
+				input[type="text"], input[type="date"], input[type="time"], select, textarea, button {
+					width: 60%;
+					border-radius: 100px;
+					border: 0;
+					padding: 10px 15px;
+					box-sizing: border-box;
+					background: $color-light-gray;
+				}
+				button {
+					background: transparent;
+					color: $color-dark-red;
+					border: 1px solid $color-dark-red;
+					&:hover {
+						color: $color-bright-white;
+						background: $color-dark-red;
+					}
+				}
+				textarea {
+					height: 300px;
+					min-height: 300px;
+					border-radius: 20px;
+					min-width: 60%;
+					max-width: 60%;
+				}
+				.checkbox-field {
+					margin-bottom: 10px;
+					span {
+						font-family: $font-montserrat;
+						color: $color-black;
+						text-transform: uppercase;
+						font-weight: 600;
+					}
+				}
+				.value {
+					font-family: $font-montserrat;
+					color: $color-black;
+					text-transform: uppercase;
+					font-weight: 400;
+				}
+			}
+		}
+	}
+}

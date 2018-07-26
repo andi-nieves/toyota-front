@@ -1,0 +1,28 @@
+.sidenav {
+  background-color: #BE0000;
+  width: 20%;
+  /* height: 100%; */
+  height: 100vh;
+  /* padding-bottom: 1000000px; */
+  overflow-y: scroll;
+  display: inline-block; }
+  .sidenav li {
+    cursor: pointer; }
+    .sidenav li:hover {
+      background-color: #FF3540; }
+    .sidenav li.active {
+      background-color: #FF3540; }
+    .sidenav li a {
+      box-sizing: border-box;
+      display: block;
+      padding: 20px 30px;
+      color: #FFFFFF;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      font-size: 15px;
+      height: 100%;
+      width: 100%; }
+
+/*# sourceMappingURL=sidenav.css.map */

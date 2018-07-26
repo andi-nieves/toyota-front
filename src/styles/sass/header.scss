@@ -1,0 +1,43 @@
+@import 'variables';
+
+.header {
+	box-sizing: border-box;
+	background-color: $color-med-red;
+	border-top: 15px solid $color-dark-red;
+	padding: 20px 30px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	.container-logo {
+		background: url('../../images/logo.png');
+		background-size: cover;
+		width: 150px;
+		height: 30px;
+	}
+	.right {
+		.container-search, .container-user {
+			display: inline-block;
+			vertical-align: middle;
+
+		}
+		.container-search {
+			input {
+				border-radius: 100px;
+				border: 0;
+				padding: 8px 15px;
+				margin-right: 30px;
+				width: 400px;
+
+			}
+		}
+		.container-user {
+			height: 50px;
+			width: 50px;
+			border-radius: 10000px;
+			background-size: cover;
+			cursor: pointer;
+			position: relative;
+		}
+	}
+}

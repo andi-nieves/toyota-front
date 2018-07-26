@@ -1,0 +1,42 @@
+.col {
+  flex-grow: 1;
+  box-sizing: border-box;
+  margin-right: 5px;
+  position: relative;
+  margin-bottom: 200px; }
+  .col .col-header {
+    background: #eee;
+    text-align: center;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    position: relative; }
+    .col .col-header button {
+      left: 0;
+      top: 0;
+      position: absolute;
+      background: #fff;
+      border: 0;
+      cursor: pointer; }
+    .col .col-header h2 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 10px;
+      text-transform: uppercase;
+      font-weight: 700;
+      padding: 10px; }
+  .col .col-body {
+    background: #eee;
+    margin-top: 5px;
+    text-align: center;
+    padding: 3px;
+    box-sizing: border-box; }
+    .col .col-body a {
+      text-decoration: none; }
+  .col .btn-plus {
+    right: 0;
+    top: 0;
+    border: 1px solid #eee;
+    background: #fff;
+    cursor: pointer;
+    position: absolute; }
+
+/*# sourceMappingURL=kanban-column.css.map */

@@ -1,0 +1,30 @@
+@import 'variables';
+
+.sidenav {
+	background-color: $color-dark-red;
+	width: 20%;
+	padding-bottom: 1000000px;
+	display: inline-block;
+	li {
+		cursor: pointer;
+		&:hover {
+			background-color: $color-light-red;
+		}
+		&.active {
+			background-color: $color-light-red;
+		}
+		a {
+			box-sizing: border-box;
+			display: block;
+			padding: 20px 30px;
+			color: $color-bright-white;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-family: $font-montserrat;
+			font-weight: 700;
+			font-size: 15px;
+			height: 100%;
+			width: 100%;
+		}
+	}
+}

@@ -1,0 +1,51 @@
+@import 'variables';
+
+.container {
+	display: inline-block;
+	vertical-align: top;
+	width: 80%;
+	padding-top: 40px;
+	overflow: auto;
+	height: 100vh;
+	h1 {
+		color: $color-dark-red;
+		margin-left: 40px;
+		text-transform: uppercase;
+		font-family: $font-montserrat;
+		font-weight: 700;
+		font-size: 40px;
+		margin-bottom: 20px;
+	}
+	.inputs {
+		margin-left: 40px;
+		margin-bottom: 40px;
+		.search {
+			border-radius: 100px;
+			border: 0;
+			background: #eee;
+			padding: 10px 15px;
+			width: 300px;
+		}
+		select {
+			background: transparent;
+			border: 0;
+			text-transform: uppercase;
+			font-family: $font-montserrat;
+			font-size: 15px;
+			margin: 0 20px;
+		}
+	}
+	.kanban-board {
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+		padding: 40px;
+		padding-top: 0;
+		box-sizing: border-box;
+
+		.box {
+			min-height: min-content;
+			display: flex;
+		}
+	}
+}

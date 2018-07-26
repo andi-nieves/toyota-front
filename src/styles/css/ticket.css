@@ -1,0 +1,52 @@
+.ticket {
+  box-sizing: border-box;
+  width: 90%;
+  margin: 10px auto;
+  padding: 20px 20px 60px 20px;
+  background: #fff;
+  box-shadow: 1px 1px 8px 1px #bdc3c7;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  color: #333;
+  position: relative; }
+  .ticket h2 {
+    font-size: 10px;
+    text-transform: uppercase; }
+  .ticket h3 {
+    font-size: 10px;
+    margin-bottom: 8px; }
+    .ticket h3.age {
+      font-weight: 600; }
+      .ticket h3.age.age-safe {
+        color: #2ecc71; }
+      .ticket h3.age.age-warning {
+        color: #f1c40f; }
+      .ticket h3.age.age-danger {
+        color: #CC0000; }
+  .ticket .ticket-status {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px 10px; }
+    .ticket .ticket-status.ticket-status-3 {
+      background: #CC0000; }
+    .ticket .ticket-status.ticket-status-4 {
+      background: #f1c40f; }
+    .ticket .ticket-status.ticket-status-5 {
+      background: #3498db; }
+    .ticket .ticket-status.ticket-status-6 {
+      background: #e67e22; }
+    .ticket .ticket-status.ticket-status-9 {
+      background: #2ecc71; }
+    .ticket .ticket-status.ticket-status-default {
+      background: #95a5a6;
+      padding: 20px; }
+    .ticket .ticket-status h3 {
+      color: #FFFFFF;
+      font-weight: 600;
+      text-transform: uppercase; }
+
+/*# sourceMappingURL=ticket.css.map */

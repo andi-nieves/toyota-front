@@ -1,0 +1,75 @@
+@import 'variables';
+
+.user-profile-container {
+	display: inline-block;
+	vertical-align: top;
+	width: 80%;
+	overflow: auto;
+	height: 100vh;
+	padding: 40px 80px;
+	box-sizing: border-box;
+	.employee-photo, .employee-details {
+		display: inline-block;
+		vertical-align: top;
+	}
+	.employee-photo {
+		width: 150px;
+		height: 150px;
+		overflow: hidden;
+		border-radius: 1000px;
+		img {
+			width: 100%;
+			max-width: 100%;
+		}
+	}
+	.employee-details {
+		padding-left: 40px;
+		height: 150px;
+		.employee-details-wrapper {
+			display: flex;
+			flex-flow: column;
+			justify-content: space-around;
+			height: 100%;
+			h1, h2 {
+				color: $color-black;
+				text-transform: uppercase;
+				font-family: $font-montserrat;
+			}
+			h1 {
+				font-weight: 700;
+				font-size: 35px;
+			}
+			h2 {
+				font-size: 15px;
+			}
+			button {
+				font-size: 15px;
+				border: 1px solid $color-dark-red;
+				background: none;
+				padding: 8px;
+				border-radius: 100px;
+				color: $color-dark-red;
+				cursor: pointer;
+				text-transform: uppercase;
+				&:hover {
+					background-color: $color-dark-red;
+					color: $color-bright-white;
+				}
+			}
+		}
+	}
+	.employee-body {
+		padding-top: 40px;
+		ul {
+			li {
+				font-family: $font-montserrat;
+				text-transform: uppercase;
+				color: $color-black;
+				margin-bottom: 10px;
+				.bold-number {
+					font-weight: 600;
+				}
+			}
+		}
+	}
+}

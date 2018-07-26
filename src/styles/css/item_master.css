@@ -1,0 +1,50 @@
+.container {
+  display: inline-block;
+  vertical-align: top;
+  width: 80%;
+  padding-top: 40px;
+  overflow: auto;
+}
+
+  .container .contents {
+    margin: 50px;
+    padding-bottom: 300px;
+  }
+
+  .container .contents  * {
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .container .contents  h1 {
+    color: #BE0000;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .container .contents  table {
+    width: 100%;
+    border: 1px solid #ccc;
+  }
+
+  .container .contents table thead {
+    background-color: #BE0000;
+    color: #fff;
+    text-align: left;
+  }
+
+  .container .contents table thead tr th,.container .contents table tbody tr td{
+    padding: 7px;
+  }
+
+  .container .contents table tbody tr{
+    border-bottom: 1px solid #ccc;
+  }
+
+  .container .contents table tbody tr:hover {
+    background-color: rgba(200,200,200,0.2);
+    cursor: pointer;
+  }
+/*# sourceMappingURL=kanban.css.map */

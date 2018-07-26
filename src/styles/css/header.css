@@ -1,0 +1,32 @@
+.header {
+  box-sizing: border-box;
+  background-color: #CC0000;
+  border-top: 15px solid #BE0000;
+  padding: 20px 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .header .container-logo {
+    background: url("../../images/logo.png");
+    background-size: cover;
+    width: 150px;
+    height: 30px; }
+  .header .right .container-search, .header .right .container-user {
+    display: inline-block;
+    vertical-align: middle; }
+  .header .right .container-search input {
+    border-radius: 100px;
+    border: 0;
+    padding: 8px 15px;
+    margin-right: 30px;
+    width: 400px; }
+  .header .right .container-user {
+    height: 50px;
+    width: 50px;
+    border-radius: 10000px;
+    background-size: cover;
+    cursor: pointer;
+    position: relative; }
+
+/*# sourceMappingURL=header.css.map */

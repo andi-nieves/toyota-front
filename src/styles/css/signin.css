@@ -1,0 +1,80 @@
+.signin-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../images/landing.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative; }
+  .signin-section:after {
+    background: #BE0000;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #BE0000 0%, #53544c 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #BE0000 0%, #53544c 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #BE0000 0%, #53544c 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color-dark-red', endColorstr='#53544c',GradientType=0 );
+    height: 100vh;
+    width: 100%;
+    content: " ";
+    position: absolute;
+    opacity: .5;
+    z-index: 1; }
+  .signin-section .signin-wrapper {
+    width: 100%;
+    max-width: 420px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    z-index: 2; }
+    .signin-section .signin-wrapper .login-error{
+      background-color: rgba(217,83,79,.5);
+      color: #fff;
+      font-weight: bold;
+      padding: 10px;
+      border: rgba(255,255,255,.5) solid 2px ;}
+    .signin-section .signin-wrapper h1, .signin-section .signin-wrapper h2 {
+      color: #f7f7f7;
+      text-transform: uppercase;
+      font-weight: 600; }
+    .signin-section .signin-wrapper h1 {
+      font-size: 40px; }
+    .signin-section .signin-wrapper h2 {
+      font-size: 14px;
+      margin-bottom: 25px; }
+    .signin-section .signin-wrapper form input {
+      width: 100%;
+      padding: 10px;
+      border-radius: 150px;
+      text-align: center;
+      background: none;
+      border: 1.5px solid #f7f7f7;
+      color: #f7f7f7;
+      margin: 10px 0;
+      box-sizing: border-box; }
+      .signin-section .signin-wrapper form input::placeholder {
+        color: #f7f7f7;
+        text-transform: uppercase; }
+    .signin-section .signin-wrapper form button {
+      background-color: #BE0000;
+      border: 0;
+      color: #f7f7f7;
+      padding: 10px 15px;
+      margin: 10px 0 30px 0;
+      width: 100%;
+      border-radius: 150px;
+      text-transform: uppercase;
+      cursor: pointer; }
+    .signin-section .signin-wrapper .links a, .signin-section .signin-wrapper .links span {
+      color: #f7f7f7;
+      text-transform: uppercase;
+      font-weight: 400; }
+    .signin-section .signin-wrapper .links a {
+      text-decoration: none;
+      margin: 10px; }
+
+/*# sourceMappingURL=signin.css.map */

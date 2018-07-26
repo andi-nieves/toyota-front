@@ -1,0 +1,59 @@
+.user-profile-container {
+  display: inline-block;
+  vertical-align: top;
+  width: 80%;
+  overflow: auto;
+  height: 100vh;
+  padding: 40px 80px;
+  box-sizing: border-box; }
+  .user-profile-container .employee-photo, .user-profile-container .employee-details {
+    display: inline-block;
+    vertical-align: top; }
+  .user-profile-container .employee-photo {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 1000px; }
+    .user-profile-container .employee-photo img {
+      width: 100%;
+      max-width: 100%; }
+  .user-profile-container .employee-details {
+    padding-left: 40px;
+    height: 150px; }
+    .user-profile-container .employee-details .employee-details-wrapper {
+      display: flex;
+      flex-flow: column;
+      justify-content: space-around;
+      height: 100%; }
+      .user-profile-container .employee-details .employee-details-wrapper h1, .user-profile-container .employee-details .employee-details-wrapper h2 {
+        color: #333;
+        text-transform: uppercase;
+        font-family: "Montserrat", sans-serif; }
+      .user-profile-container .employee-details .employee-details-wrapper h1 {
+        font-weight: 700;
+        font-size: 35px; }
+      .user-profile-container .employee-details .employee-details-wrapper h2 {
+        font-size: 15px; }
+      .user-profile-container .employee-details .employee-details-wrapper button {
+        font-size: 15px;
+        border: 1px solid #BE0000;
+        background: none;
+        padding: 8px;
+        border-radius: 100px;
+        color: #BE0000;
+        cursor: pointer;
+        text-transform: uppercase; }
+        .user-profile-container .employee-details .employee-details-wrapper button:hover {
+          background-color: #BE0000;
+          color: #FFFFFF; }
+  .user-profile-container .employee-body {
+    padding-top: 40px; }
+    .user-profile-container .employee-body ul li {
+      font-family: "Montserrat", sans-serif;
+      text-transform: uppercase;
+      color: #333;
+      margin-bottom: 10px; }
+      .user-profile-container .employee-body ul li .bold-number {
+        font-weight: 600; }
+
+/*# sourceMappingURL=user-profile.css.map */

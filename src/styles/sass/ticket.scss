@@ -1,0 +1,68 @@
+@import 'variables';
+
+.ticket {
+	box-sizing: border-box;
+	width: 90%;
+	margin: 10px auto;
+	padding: 20px 20px 60px 20px;
+	background: #fff;
+	box-shadow: 1px 1px 8px 1px #bdc3c7;
+	text-align: left;
+	font-family: $font-montserrat;
+	color: $color-black;
+	position: relative;
+	h2 {
+		font-size: 10px;
+		text-transform: uppercase;
+	}
+	h3 {
+		font-size: 10px;
+		margin-bottom: 8px;
+		&.age {
+			font-weight: 600;
+			&.age-safe {
+				color: $color-green;
+			}
+			&.age-warning {
+				color: $color-yellow;
+			}
+			&.age-danger {
+				color: $color-med-red;
+			}
+		}
+	}
+	.ticket-status {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		text-align: center;
+		box-sizing: border-box;
+		padding: 10px 10px;
+		&.ticket-status-3 {
+			background: $color-med-red;
+		}
+		&.ticket-status-4 {
+			background: $color-yellow;
+		}
+		&.ticket-status-5 {
+			background: $color-blue;
+		}
+		&.ticket-status-6 {
+			background: $color-orange;
+		}
+		&.ticket-status-9 {
+			background: $color-green;
+		}
+		&.ticket-status-default {
+			background: $color-gray;
+			padding: 20px;
+		}
+		h3 {
+			color: $color-bright-white;
+			font-weight: 600;
+			text-transform: uppercase;
+		}
+	}
+
+}
